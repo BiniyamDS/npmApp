@@ -14,3 +14,17 @@
 #time {
     font-size: 50px;
 }
+
+.dropdown-menu {
+    max-height:  200px; /* You can adjust this value based on your needs */
+    overflow-y: auto; /* This will add a scrollbar if the content overflows */
+  }
+
+#mdlink {
+    text-decoration: none;
+    color: gray;
+}
+
+#mdlink:hover {
+    color: rgb(193, 193, 181);
+}
